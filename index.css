@@ -1,0 +1,247 @@
+html,body
+{
+	/*background-image: url("https://t4.ftcdn.net/jpg/02/86/37/57/360_F_286375793_tMNCezCxZVJMzXVlunBoKI1JWP72cE9L.jpg");*/
+	padding:0px;
+	margin:0px;
+	width:100%;
+	height:100%;
+	background: #14161a;
+	font-family: 'Josefin Sans', sans-serif;
+}
+#currencyInfo
+{
+	width: 100%;
+    padding-top: 15px;
+    height: 49px;
+	
+	background: #14161a;
+	/*#14161a*/
+	box-shadow: 0px 3px 8px black;
+}
+#currencyInfo h4 
+{
+	color: gold;
+   	margin: 0px;
+   	margin-left: 55px;
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 10px;
+
+}
+#trending
+{
+	width:100%; 
+	background-image: url("banner2.jpg");
+	height: 400px
+}
+button:hover
+{
+	transform: scale(1.1);
+}
+.uidropdown:hover
+{
+	transform: scale(1.1);
+}
+button,select
+{
+	/*hover*/
+	
+
+	float: right;
+    height: 37px;
+    margin-left: -3px;
+    margin-right: 28px;
+    /*font-size: 16px;*/
+    color: black;
+    border-radius: 5px;
+    background: #eebc1d;
+    font-size: 14px;
+    padding: 9px 12px;
+    border: 1px #eebc1d solid;
+    cursor: pointer;
+}
+select
+{
+	background: #14161a;
+    color: white;
+    border: 1px white solid;
+}
+.opt
+{
+	cursor: pointer;
+}
+#trending h1
+{
+	    
+	    color: white;
+        text-align: center;
+   	 	padding-top: 42px;
+    	font-size: xxx-large;
+    	margin-top: 0px;
+    	margin-bottom: 16px;
+}
+#trending p
+{
+	color: #d7cdcd;
+    text-align: center;
+}
+img
+{
+	height: 60px;
+	width: 60px;
+}
+table
+{
+	color: white;
+}
+
+
+
+.commanstyle
+{
+	height: 160px;
+	width: 160px;
+	/*background-color: pink;*/
+	text-align: center;
+	display: inline-block;
+	margin:30px;
+
+
+
+
+}
+#marq{
+	animation:  5s linear infinite;
+	 position: absolute;
+  overflow: hidden;
+}
+#marq img
+{
+	height: 100px;
+	width: 100px;
+}
+.commanstyle:hover
+{
+	transform: scale(1.1);
+	cursor: pointer;
+}
+#crypto_search input
+{
+	height: 39px;
+    width: 90%;
+    
+    background-color: #14161a;
+    border: 2px white solid;
+    border-radius: 7px;
+    color: white;
+    padding-left:20px; 
+    font-size: 17px;
+}
+
+
+#crypto_search
+{
+	text-align: center;
+    color: white;
+    /*padding-right: 5px;*/
+}
+::placeholder
+{
+	color: white;
+	padding-left:20px; 
+}
+#crypto_list
+{
+	width: 90%;
+    /*background: pink;*/
+    text-align: center;
+    margin-left: 65px;
+    border: 1px #14161a solid;
+    border-radius: 4px;
+    margin-top: 17px;
+}
+#table_heading
+{
+	background-color: #eebc1d;
+	color: #14161a;
+	/*text-align: left;*/
+	border-bottom:none; 
+}
+tr
+{
+	width:90%;
+	height:50px;
+	border-bottom: 1px white solid;
+}
+table
+{
+	width: 100%;
+	border-collapse: collapse;
+
+
+}
+td img
+{
+	margin-top:8px;
+}
+tr:hover
+{
+	transform: scale(1.1);
+	cursor: pointer;
+	/*background: #131111;*/
+}
+#table_heading:hover
+{
+	transform: none;
+	cursor: default;
+}
+#info2
+{
+	display: inline-block;
+    /* background: pink; */
+    width: 25%;
+    height: 100%;
+    border-right: 2px white solid;
+    color:white;
+   
+     text-align:center;
+    
+
+}
+#buyingPage
+{
+display: inline-block;
+    position: absolute;
+    width: 59%;
+    height: 100%;
+    margin-left: 15px;
+    padding-left: 33px;
+    text-align:center;
+    margin-top: 20px
+}
+#buyingPrice,#buyingQty
+{
+	
+	border:none;
+  width:100%;
+}
+input:focus, textarea:focus, select:focus{
+        outline: none;
+    }
+
+ a
+ {
+ 	text-decoration: none;
+    color: #ffffff;
+ }  
+ legend{
+ 	color: white;
+ }
+ .page2input
+ {
+	border: none;
+    background: inherit;
+    color: white;
+    font-size: 19px
+}
+

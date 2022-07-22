@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+	 		CRYPTO TRACKER	
+		</title>
+
+		        <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Cryptocurrency_Logo.svg/633px-Cryptocurrency_Logo.svg.png" type="image/icon type">
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+				<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+				<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
+               <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	           <!-- <script type="text/javascript" src="index.js"></script> -->
+	           <script type="text/javascript" src="index2.js"></script>
+	         	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.blockUI/2.70/jquery.blockUI.min.js" integrity="sha512-eYSzo+20ajZMRsjxB6L7eyqo5kuXuS2+wEbbOkpaur+sA2shQameiJiWEzCIDwJqaB0a4a6tCuEvCOBHUg3Skg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	           <link rel="stylesheet" href="index.css">
+	           <!-- CSS only -->
+	           
+
+	           <style>
+	           	tr:hover
+				{
+					transform:none;
+					cursor: context-menu;
+					background: #131111;
+				}
+	           	::placeholder
+				{
+					color: white;
+					padding-left:20px;
+					font-size: 15px 
+				}
+
+
+	           </style>
+
+
+            
+	</head>
+<body>
+	<div id="currencyInfo">
+		<h4><a href="index.html">CRYPTO TRACKER</a></h4>
+		<button>LOGIN</button>
+	    <button id="portfoloio">PORTFOLIO</button>
+	     <select class="uidropdown">
+			 <option class="opt" value="INR">INR</option>
+	  		 <option  class="opt" value="USD">USD</option>
+		 </select>
+	</div>
+	<br>
+	<div id="combine" style="height: 100%">
+	<div id="info2" >
+		
+	</div>
+	<div id="buyingPage" >
+		
+			<legend style="color: #eebc1d;text-align: left;">ADD INFORMATION</legend>
+		<br><br>
+		<fieldset style="border-color: white; text-align: center; ">
+			<legend>BUYING PRICE</legend>
+
+		<input class="page2input"id="buyingPrice"placeholder="ENTER BUYING PRICE" type="number" required="required">
+		</fieldset>
+		<br>
+		<br>
+		<fieldset style="border-color: white; text-align: center;">
+			<legend>QUANTITY</legend>
+		<input class="page2input"id="buyingQty"placeholder="ENTER QUANTITY" type="number">
+		</fieldset>
+		<br><br>
+
+		<button id="buyingButton">BUY</button>
+		
+        <br><br><br><br><br>
+        <h3 style="color: #eebc1d; text-align:center">INFORMATION </h3>
+        <ol  style="color: white;text-align:justify;">
+        	<li>&nbsp;&nbsp;DATA WILL BE STILL AVAIALBELE AFTER CLOSING THE TAB  </li>
+        	<li>&nbsp;&nbsp;ON SAME URL YOU CAN SEE PREVIOUSLY ADDED DATA  </li>
+        	<li>&nbsp;&nbsp;DATA WILL BE STORED IN LOCAL STORAGE  </li>
+        	<li>&nbsp;&nbsp;DONT CLEAN CHACHE THIS WILL RESULT IN LOSS OF DATA  </li>
+        	<li>&nbsp;&nbsp;SELECTED CURRENCY WILL BE DISPLAYED IN PORTFOLIO BY DEFAULT IS INR  </li>
+        	<li>&nbsp;&nbsp; CHANGE IT TO USD TO STORE DATA IN UDS FORMAT </li>
+        	<li>&nbsp;&nbsp;CURRENCY UPDATING IS NOT ALLOWED IN PORTFOLIO </li>
+        	
+
+
+
+        	
+        </ol>
+
+
+	</div>
+</div>
+</body>
+</html>
